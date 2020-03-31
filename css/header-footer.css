@@ -1,0 +1,136 @@
+.main-header {
+  height: 77px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.brand {
+  width: 160.12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  color: #999999;
+  width: 215px;
+  height: 28px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.login-wrapper {
+  width: 124px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-btn {
+  background: #3897f0;
+  border-radius: 4px;
+  border: none;
+  width: 59px;
+  height: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.signin {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #3897f0;
+  text-decoration: none;
+}
+
+footer {
+  height: 122px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-navbar ul {
+  list-style: none;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #003569;
+  margin-right: 16px;
+}
+
+.copy {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+@media only screen and (max-width: 1023px) {
+  .header-wrapper {
+    max-width: 1012px;
+    /* Si se pone a nivel general, borrar: */
+    min-width: 370px;
+    margin: auto;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  footer {
+    max-width: 1012px;
+    margin: auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  footer li {
+    margin-bottom: 7px;
+  }
+
+  .footer-navbar,
+  .copy {
+    min-width: 370px;
+  }
+
+  .footer-navbar ul {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header-wrapper {
+    width: 1012px;
+    margin: auto;
+  }
+
+  footer {
+    width: 1012px;
+    margin: auto;
+  }
+}
