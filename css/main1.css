@@ -121,6 +121,36 @@ main {
 
 .user-info .user-social {
   grid-area: user-social;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 13px 0px;
+  margin-top: 21px;
+}
+
+.user-info .user-social > * {
+  width: calc(100% / 3);
+}
+
+.user-info .user-social p:first-child {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #262626;
+}
+
+.user-info .user-social p:last-child {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 138% */
+
+  text-align: center;
+
+  color: #999999;
 }
 
 @media screen and (min-width: 1024px) {
