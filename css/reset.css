@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -15,4 +16,37 @@ html, body {
 }
 body {
   background-color: #FAFAFA;
+}
+
+/* Ricardo's part */
+
+
+/* Albert's part */
+
+
+/* Zamir's part */
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 1023px) {
+  /* Ricardo's part */
+  
+  
+  /* Albert's part */
+  
+  
+  /* Zamir's part */
+  
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+  /* Ricardo's part */
+  
+  
+  /* Albert's part */
+  
+  
+  /* Zamir's part */
+  
 }
