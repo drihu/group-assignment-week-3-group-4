@@ -25,7 +25,19 @@ body {
 
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1023px) {
+  /* Ricardo's part */
+  
+  
+  /* Albert's part */
+  
+  
+  /* Zamir's part */
+  
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
   /* Ricardo's part */
   
   
